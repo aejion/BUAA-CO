@@ -1,0 +1,52 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/p5/tb_isim_beh.exe" -prj "F:/p5/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "F:/p5/WReg.v" into library work
+Analyzing Verilog file "F:/p5/mux324.v" into library work
+Analyzing Verilog file "F:/p5/mux322.v" into library work
+Analyzing Verilog file "F:/p5/MReg.v" into library work
+Analyzing Verilog file "F:/p5/IM.v" into library work
+Analyzing Verilog file "F:/p5/GRF.v" into library work
+Analyzing Verilog file "F:/p5/GetNpc.v" into library work
+Analyzing Verilog file "F:/p5/Forward_unit_2.v" into library work
+Analyzing Verilog file "F:/p5/EXT.v" into library work
+Analyzing Verilog file "F:/p5/EReg.v" into library work
+Analyzing Verilog file "F:/p5/DReg.v" into library work
+Analyzing Verilog file "F:/p5/dm.v" into library work
+Analyzing Verilog file "F:/p5/control.v" into library work
+Analyzing Verilog file "F:/p5/ALU.v" into library work
+Analyzing Verilog file "F:/p5/mips.v" into library work
+Analyzing Verilog file "F:/p5/tb.v" into library work
+Analyzing Verilog file "G:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "F:/p5/mips.v" Line 87: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/p5/mips.v" Line 88: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/p5/mips.v" Line 119: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "F:/p5/mips.v" Line 120: Port d is not connected to this instance
+Completed static elaboration
+Compiling module mux324
+Compiling module GetNpc
+Compiling module IM
+Compiling module DReg
+Compiling module Control
+Compiling module GRF
+Compiling module EXT
+Compiling module EReg
+Compiling module mux322
+Compiling module ALU
+Compiling module MReg
+Compiling module DM
+Compiling module WReg
+Compiling module Forward_unit_2
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\tb_isim_beh.exe.sim\libPortability.dll".
+Compiled 17 Verilog Units
+Built simulation executable F:/p5/tb_isim_beh.exe
+Fuse Memory Usage: 30124 KB
+Fuse CPU Usage: 530 ms

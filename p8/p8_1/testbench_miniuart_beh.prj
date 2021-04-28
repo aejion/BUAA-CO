@@ -1,0 +1,6 @@
+verilog work "MiniUART_src/src/utils.v"
+verilog work "MiniUART_src/src/txd.v"
+verilog work "MiniUART_src/src/rxd.v"
+verilog work "MiniUART_src/src/uart.v"
+verilog work "MiniUART_src/src/testbench.v"
+verilog work "G:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

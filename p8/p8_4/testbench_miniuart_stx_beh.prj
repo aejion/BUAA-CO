@@ -1,0 +1,6 @@
+verilog isim_temp "MiniUART_src/src/utils.v"
+verilog isim_temp "MiniUART_src/src/txd.v"
+verilog isim_temp "MiniUART_src/src/rxd.v"
+verilog isim_temp "MiniUART_src/src/uart.v"
+verilog isim_temp "MiniUART_src/src/testbench.v"
+verilog isim_temp "G:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

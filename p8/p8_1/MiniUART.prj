@@ -1,0 +1,4 @@
+verilog work "MiniUART_src/src/utils.v"
+verilog work "MiniUART_src/src/txd.v"
+verilog work "MiniUART_src/src/rxd.v"
+verilog work "MiniUART_src/src/uart.v"

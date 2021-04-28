@@ -1,0 +1,11 @@
+MO Control NULL ../p41/control.v vlg41/_control.bin 1573314691
+MO DM NULL ../p41/dm.v vlg21/_d_m.bin 1573314691
+MO IM NULL ../p41/IM.v vlg3A/_i_m.bin 1573314691
+MO GetNpc NULL ../p41/GetNpc.v vlg1D/_get_npc.bin 1573314691
+MO EXT NULL ../p41/EXT.v vlg49/_e_x_t.bin 1573314691
+MO mux322 NULL ../p41/mux322.v vlg75/mux322.bin 1573314691
+MO mux324 NULL ../p41/mux324.v vlg77/mux324.bin 1573314691
+MO GRF NULL ../p41/GRF.v vlg4F/_g_r_f.bin 1573314691
+MO mips NULL ../p41/mips.v vlg1D/mips.bin 1573314691
+MO ALU NULL ../p41/ALU.v vlg2A/_a_l_u.bin 1573314691
+MO mux54 NULL ../p41/mux54.v vlg33/mux54.bin 1573314691

@@ -1,0 +1,105 @@
+Running: G:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/cpu/p8_4/mips_test_isim_beh.exe -prj G:/cpu/p8_4/mips_test_beh.prj work.mips_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/cpu/p8_4/ipcore_dir/CLOCK.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/ipcore_dir/IMM.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/ipcore_dir/DMM.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/WReg.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/opt.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/mux328.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/mux324.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/mux322.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/MReg.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/MiniUART_src/src/utils.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/MiniUART_src/src/txd.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/MiniUART_src/src/rxd.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/IM.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/GRF.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/GetNpc.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/Forward_unit_3.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/Forward_unit_2.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/Forward_unit_1.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/EXT.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/EXC_OP_M.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/EReg.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/DReg.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/dm.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/cp0.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/control.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/ALU.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/TC.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/P8_BLACKBOX.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/MiniUART_src/src/uart.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/Digital_User.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/cpu.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/Bridge.v" into library work
+WARNING:HDLCompiler:370 - "G:/cpu/p8_4/Bridge.v" Line 21: Empty port in module declaration
+Analyzing Verilog file "G:/cpu/p8_4/mips.v" into library work
+Analyzing Verilog file "G:/cpu/p8_4/mips_test.v" into library work
+Analyzing Verilog file "G:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/mips_test.v" Line 39: Port uart_rxd is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/mips.v" Line 98: Port ACK_O is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/cpu.v" Line 151: Port f is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/cpu.v" Line 152: Port f is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/cpu.v" Line 172: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/cpu.v" Line 173: Port d is not connected to this instance
+WARNING:HDLCompiler:1016 - "G:/cpu/p8_4/cpu.v" Line 187: Port c is not connected to this instance
+Completed static elaboration
+Compiling module IBUFG
+Compiling module PLL_ADV(BANDWIDTH="OPTIMIZED",CL...
+Compiling module PLL_BASE(CLKFBOUT_MULT=16,CLKIN_...
+Compiling module BUFG
+Compiling module CLOCK
+Compiling module mux324
+Compiling module mux322
+Compiling module GetNpc
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module IMM
+Compiling module IM
+Compiling module DReg
+Compiling module Control
+Compiling module GRF
+Compiling module mux328
+Compiling module EXT
+Compiling module EReg
+Compiling module ALU
+Compiling module MReg
+Compiling module EXC_OP_M
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="spart...
+Compiling module DMM
+Compiling module DM
+Compiling module cp0
+Compiling module WReg
+Compiling module opt
+Compiling module Forward_unit_1
+Compiling module Forward_unit_2
+Compiling module Forward_unit_3
+Compiling module cpu
+Compiling module Bridge
+Compiling module TC
+Compiling module Digital_User
+Compiling module rx_unit
+Compiling module ctrl_shift
+Compiling module trans_reg
+Compiling module tx_unit
+Compiling module counter(size_cnt=16)
+Compiling module divisor(size_cnt_rx=16,size_cnt_...
+Compiling module MiniUART
+Compiling module wrapper
+Compiling module mips
+Compiling module mips_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips_test_isim_beh.exe.sim\libPortability.dll".
+Compiled 48 Verilog Units
+Built simulation executable G:/cpu/p8_4/mips_test_isim_beh.exe
+Fuse Memory Usage: 45924 KB
+Fuse CPU Usage: 1046 ms

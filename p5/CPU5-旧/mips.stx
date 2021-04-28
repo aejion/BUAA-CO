@@ -1,0 +1,65 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/p5/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to F:/p5/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "WReg.v" in library work
+Compiling verilog file "mux324.v" in library work
+Module <WReg> compiled
+Compiling verilog file "mux322.v" in library work
+Module <mux324> compiled
+Compiling verilog file "MReg.v" in library work
+Module <mux322> compiled
+Compiling verilog file "IM.v" in library work
+Module <MReg> compiled
+Compiling verilog file "GRF.v" in library work
+Module <IM> compiled
+Compiling verilog file "GetNpc.v" in library work
+Module <GRF> compiled
+Compiling verilog file "Forward_unit_2.v" in library work
+Module <GetNpc> compiled
+Compiling verilog file "EXT.v" in library work
+Module <Forward_unit_2> compiled
+Compiling verilog file "EReg.v" in library work
+Module <EXT> compiled
+Compiling verilog file "DReg.v" in library work
+Module <EReg> compiled
+Compiling verilog file "dm.v" in library work
+Module <DReg> compiled
+Compiling verilog file "control.v" in library work
+Module <DM> compiled
+Compiling verilog file "ALU.v" in library work
+Module <Control> compiled
+Compiling verilog file "mips.v" in library work
+Module <ALU> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+
+Total memory usage is 4477860 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

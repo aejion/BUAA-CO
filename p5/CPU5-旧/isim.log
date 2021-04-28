@@ -1,0 +1,100 @@
+ISim log file
+Running: F:\p5\tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb F:/p5/tb_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 190@0000300c: $11 <= 00110000
+                 210@00003010: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 190@0000300c: $11 <= 00110000
+                 210@00003010: $12 <= 11110000
+                 230@00003014: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                 110@00003000: $ 9 <= 11110000
+                 130@00003004: $10 <= 22220000
+                 150@00003008: $ 9 <= 22220000
+                 210@00003010: $11 <= 00110000
+                 230@00003014: $12 <= 11110000
+                 250@00003018: $11 <= 01110000

@@ -1,0 +1,3 @@
+verilog isim_temp "ipcore_dir/DMM.v"
+verilog isim_temp "dm.v"
+verilog isim_temp "G:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,320 @@
+subu $1,$2,$3
+addu $4,$1,$2
+
+subu $1,$2,$3
+addu $4,$2,$1
+
+subu $1,$2,$3
+nop
+addu $4,$1,$2
+
+subu $1,$2,$3
+nop
+addu $4,$2,$1
+
+ori $1,$0,0x1111
+addu $3,$1,$2
+
+ori $1,$0,0x1111
+addu $3,$2,$1
+
+ori $1,$0,0x1111
+nop
+addu $3,$1,$2
+
+ori $1,$0,0x1111
+nop
+addu $3,$2,$1
+
+lw $1,0($2)
+nop
+addu $3,$1,$2
+
+lw $1,0($2)
+nop
+addu $3,$2,$1
+
+lw $1,0($2)
+addu $3,$1,$2
+
+lw $1,0($2)
+addu $3,$1,$2
+
+lw $1,0($2)
+addu $3,$1,$2
+
+lw $1,0($2)
+addu $3,$1,$2
+
+jal dfs
+nop
+dfs:
+addu $1,$31,$0
+
+jal dfs
+nop
+dfs:
+addu $1,$0,$31
+
+jal dfs
+nop
+dfs:
+nop
+addu $1,$31,$0
+
+jal dfs
+nop
+dfs:
+nop
+addu $1,$0,$31
+
+
+subu $1,$2,$3
+ori $4,$1,0x1111
+
+subu $1,$2,$3
+nop
+ori $4,$1,0x1111
+
+ori $1,$0,0x1110
+ori $2,$1,0x1111
+
+ori $1,$0,0x1110
+nop
+ori $3,$1,0x1111
+
+lw $1,0($2)
+nop
+ori $3,$1,0x0
+
+lw $1,0($2)
+nop
+ori $3,$1,$2
+
+lw $1,0($2)
+ori $3,$1,$2
+
+jal dfs
+nop
+dfs:
+ori $1,$31,0x0
+
+jal dfs
+nop
+dfs:
+nop
+ori $1,$31,0x0
+
+subu $1,$2,$3
+lw $4,0($1)
+
+subu $1,$2,$3
+nop
+lw $4,0($1)
+
+ori $1,$0,0x1110
+lw $4,0($1)
+
+ori $1,$0,0x1110
+nop
+lw $4,0($1)
+
+lw $1,0($2)
+nop
+lw $4,0($1)
+
+lw $1,0($2)
+nop
+lw $4,0($1)
+
+lw $1,0($2)
+lw $4,0($1)
+
+jal dfs
+nop
+dfs:
+lw $4,0($31)
+
+jal dfs
+nop
+dfs:
+nop
+lw $4,0($31)
+
+subu $1,$2,$3
+sw $4,0($1)
+
+subu $1,$2,$3
+sw $1,0($0)
+
+subu $1,$2,$3
+nop
+sw $4,0($1)
+
+subu $1,$2,$3
+nop
+sw $1,0($0)
+
+ori $1,$0,0x1110
+sw $4,0($1)
+
+ori $1,$0,0x1110
+nop
+sw $4,0($1)
+
+ori $1,$0,0x1110
+sw $1,0($0)
+
+ori $1,$0,0x1110
+nop
+sw $1,0($0)
+
+lw $1,0($2)
+nop
+sw $4,0($1)
+
+lw $1,0($2)
+nop
+sw $1,0($0)
+
+lw $1,0($2)
+nop
+sw $4,0($1)
+
+lw $1,0($2)
+nop
+sw $1,0($0)
+
+lw $1,0($2)
+sw $4,0($1)
+
+lw $1,0($2)
+sw $1,0($0)
+
+jal dfs
+nop
+dfs:
+sw $4,0($31)
+
+jal dfs
+nop
+dfs:
+nop
+sw $4,0($31)
+
+subu $1,$2,$3
+beq $1,$2,loop
+
+subu $1,$2,$3
+beq $2,$1,loop
+
+subu $1,$2,$3
+nop
+beq $1,$2,loop
+
+subu $1,$2,$3
+nop
+beq $2,$1,loop
+
+ori $1,$2,0x1111
+beq $1,$2,loop
+
+ori $1,$2,0x1111
+beq $2,$1,loop
+
+ori $1,$2,0x1111
+nop
+beq $1,$2,loop
+
+ori $1,$2,0x1111
+nop
+beq $2,$1,loop
+
+lw $1,0($2)
+beq $1,$2,loop
+
+lw $1,0($2)
+beq $2,$1,loop
+
+lw $1,0($2)
+nop
+beq $1,$2,loop
+
+lw $1,0($2)
+nop
+beq $2,$1,loop
+
+lw $1,0($2)
+nop
+nop
+beq $1,$2,loop
+
+lw $1,0($2)
+nop
+nop
+beq $2,$1,loop
+
+jal dfs
+nop
+dfs:
+beq $4,$31,loop
+
+jal dfs
+nop
+dfs:
+beq $31,$4,loop
+
+jal dfs
+nop
+dfs:
+nop
+beq $4,$31,loop
+
+jal dfs
+nop
+dfs:
+nop
+beq $31,$4,loop
+
+subu $1,$2,$3
+jr $1
+
+subu $1,$2,$3
+nop
+jr $1
+
+ori $1,$2,0x1111
+jr $1
+
+ori $1,$2,0x1111
+nop
+jr $1
+
+lw $1,0($2)
+jr $1
+
+lw $1,0($2)
+nop
+jr $1
+
+lw $1,0($2)
+nop
+nop
+jr $1
+
+jal dfs
+nop
+dfs:
+jr $31
+
+jal dfs
+nop
+dfs:
+nop
+jr $31
+
+
+
+
+
+

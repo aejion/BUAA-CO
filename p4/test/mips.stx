@@ -1,0 +1,57 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/test/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to F:/test/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../p41/mux54.v" in library work
+Compiling verilog file "../p41/mux324.v" in library work
+Module <mux54> compiled
+Compiling verilog file "../p41/mux322.v" in library work
+Module <mux324> compiled
+Compiling verilog file "../p41/IM.v" in library work
+Module <mux322> compiled
+Compiling verilog file "../p41/GRF.v" in library work
+Module <IM> compiled
+Compiling verilog file "../p41/GetNpc.v" in library work
+Module <GRF> compiled
+Compiling verilog file "../p41/EXT.v" in library work
+Module <GetNpc> compiled
+Compiling verilog file "../p41/dm.v" in library work
+Module <EXT> compiled
+Compiling verilog file "../p41/control.v" in library work
+Module <DM> compiled
+Compiling verilog file "../p41/ALU.v" in library work
+Module <Control> compiled
+Compiling verilog file "../p41/mips.v" in library work
+Module <ALU> compiled
+Module <mips> compiled
+No errors in compilation
+Analysis of file <"mips.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> 
+
+Total memory usage is 4477864 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

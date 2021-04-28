@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "G:/cpu/p8_4/mips_test.xst" -ofn "G:/cpu/p8_4/mips_test.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mips_test.ngc mips_test_synthesis.v 
+xst -intstyle ise -ifn "G:/cpu/p8_4/mips_test.xst" -ofn "G:/cpu/p8_4/mips_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc PIN.ucf -p xc6slx100-fgg676-2 mips_test.ngc mips_test.ngd  
